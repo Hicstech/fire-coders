@@ -2,8 +2,10 @@
     text-align: center;
     background-color: sandybrown;
     height: 50px;
+    
  
 }
+
 .header .trail{
   background-color: rgb(114, 240, 114);  
   border: 1px solid green;
@@ -30,15 +32,16 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    
 }
 
 .header a {
-    float: left;
+    float: right;
     color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     border-radius: 4px;
 }
@@ -52,6 +55,9 @@
     background-color: dodgerblue;
     color: white;
 }
+.header-right {
+    float: right;
+}
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -59,7 +65,7 @@
         display: block;
         text-align: left;
     }
-    .header-right {
+    /* .header-right {
         float: none;
-    }
+    } */
 }
